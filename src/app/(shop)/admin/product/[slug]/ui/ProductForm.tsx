@@ -35,6 +35,7 @@ export const ProductForm = ({ product, categories }: Props) => {
   const router = useRouter();
 
   const {
+    // se desestrucutran varias utilidades
     handleSubmit,
     register,
     formState: { isValid },
